@@ -1,0 +1,12 @@
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\bin\Debug\net7.0\RickMortyBlazor.Models.deps.json
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\bin\Debug\net7.0\RickMortyBlazor.Models.dll
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\bin\Debug\net7.0\RickMortyBlazor.Models.pdb
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\obj\Debug\net7.0\RickMortyBlazor.Models.csproj.AssemblyReference.cache
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\obj\Debug\net7.0\RickMortyBlazor.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\obj\Debug\net7.0\RickMortyBlazor.Models.AssemblyInfoInputs.cache
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\obj\Debug\net7.0\RickMortyBlazor.Models.AssemblyInfo.cs
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\obj\Debug\net7.0\RickMortyBlazor.Models.csproj.CoreCompileInputs.cache
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\obj\Debug\net7.0\RickMortyBlazor.Models.dll
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\obj\Debug\net7.0\refint\RickMortyBlazor.Models.dll
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\obj\Debug\net7.0\RickMortyBlazor.Models.pdb
+C:\Users\Valer\source\repos\RickMortyBlazor\RickMortyBlazor.Models\obj\Debug\net7.0\ref\RickMortyBlazor.Models.dll

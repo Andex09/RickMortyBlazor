@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\obj\\Debug\\net7.0\\build-gz\\lIuxiX1t.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\RickMortyBlazor.Client.styles.css",
+      "PackagePath": "staticwebassets\\RickMortyBlazor.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\img\\fondo-dos.jpg",
+      "PackagePath": "staticwebassets\\img\\fondo-dos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\img\\fondo-tres.png",
+      "PackagePath": "staticwebassets\\img\\fondo-tres.png"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\img\\fondo.jpg",
+      "PackagePath": "staticwebassets\\img\\fondo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\img\\rick-and-morty.png",
+      "PackagePath": "staticwebassets\\img\\rick-and-morty.png"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\img\\vortice.png",
+      "PackagePath": "staticwebassets\\img\\vortice.png"
+    },
+    {
+      "Id": "C:\\Users\\Valer\\source\\repos\\RickMortyBlazor\\RickMortyBlazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RickMortyBlazor.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RickMortyBlazor.Client.props",
+      "PackagePath": "build\\RickMortyBlazor.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RickMortyBlazor.Client.props",
+      "PackagePath": "buildMultiTargeting\\RickMortyBlazor.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RickMortyBlazor.Client.props",
+      "PackagePath": "buildTransitive\\RickMortyBlazor.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
