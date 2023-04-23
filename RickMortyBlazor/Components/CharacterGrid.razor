@@ -1,0 +1,31 @@
+﻿@if (Characters == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="row justify-content-center">
+        @foreach (var character in Characters)
+        {
+            <div class="card m-2 gx-0 bg-dark col-4 col-xl-2" style="">
+                <img class="card-img-top img-fluid" src="@character.Image" alt="@character.Name">
+                <div class="card-body d-flex flex-column">
+                    <div class="d-inline-flex">
+                        <h5 class="m-0 me-2 align-self-center">@character.Name</h5>
+                        <span class="align-self-center badge rounded-pill bg-@(character.Status.ToLower())">
+                            @character.Status
+                        </span>
+                    </div>
+                    <p class="card-text mt-2 mb-0">@character.Species</p>
+                    <a href="/details/@character.Id" class="align-self-end mt-auto">More Info</a>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    [Parameter]
+    public IEnumerable<Character> Characters { get; set; }
+
+}

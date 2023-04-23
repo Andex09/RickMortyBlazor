@@ -1,0 +1,79 @@
+﻿@page "/"
+@using RickMortyBlazor.Client.Services.Interfaces;
+@inject IRickMortyApi RickMortyApi
+
+<div class="container-fluid d-flex flex-column align-items-center">
+
+    <div>
+        <img src="/img/rick-and-morty.png"
+             class=""
+             height="200" />
+    </div>
+
+    <SearchBar SearchChanged="SearchChanged"/>
+
+    <div class="row">
+        <div class="col">
+            <Pagination Metadata="paginationMetadata"
+                        Spread="3"
+                        SelectedPage="SelectedPage" />
+        </div>
+    </div>
+
+    @if (Characters == null)
+    {
+        <span>Not found</span>
+    }
+    else
+    {
+        <CharacterGrid Characters="Characters" />
+    }
+
+</div>
+
+@code {
+    IEnumerable<Character> Characters = new List<Character>();
+
+    PaginationMetadata paginationMetadata = new PaginationMetadata();
+    PaginationParameters paginationParameters = new PaginationParameters();
+
+    Filter filter = new Filter();
+
+    protected override async Task OnInitializedAsync()
+    {
+        paginationMetadata.CurrentPage = 1;
+        await GetCharacters();
+    }
+
+    private async Task SelectedPage(int page)
+    {
+        paginationParameters.PageNumber = page;
+        await GetCharacters();
+    }
+
+    private async Task GetCharacters()
+    {
+        var result = await RickMortyApi.GetSearchChararters(paginationParameters, filter);
+        if (result != null)
+        {
+            paginationMetadata.TotalCount = result.Info.Count;
+            paginationMetadata.TotalPages = result.Info.Pages;
+            Characters = result.Results;
+        }
+        else
+        {
+            paginationMetadata.TotalCount = 0;
+            paginationMetadata.TotalPages = 0;
+            Characters = null;
+        }
+    }
+
+    private async Task SearchChanged(string value)
+    {
+        paginationParameters.PageNumber = 1;
+        paginationMetadata.CurrentPage = 1;
+        filter.Name = value;
+        await GetCharacters();
+    }
+
+}

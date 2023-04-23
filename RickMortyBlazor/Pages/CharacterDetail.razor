@@ -1,0 +1,78 @@
+﻿@using RickMortyBlazor.Client.Services.Interfaces;
+@inject IRickMortyApi RickMortyApi
+@inject NavigationManager Navigation
+
+@page "/details/{id}"
+
+@if (Character == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="d-flex flex-column">
+        <div class="d-flex flex-sm-row flex-column align-items-center">
+            <div class="col-sm-6">
+                <img src="@Character.Image"
+                     alt="@Character.Name"
+                     class="img-fluid d-block mx-auto rounded "
+                     style="" />
+            </div>
+            <div class="col-sm-6" style="max-width: 30rem">
+                <div class="mt-2 ">
+                    <h1>@Character.Name</h1>
+                </div>
+
+                <ul class="list-group list-group-flush mt-4">
+                    <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent">
+                        ID #<b>@Character.Id</b>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent">
+                        Specie <b>@Character.Species</b>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent">
+                        Status
+                        <b>
+                            <svg height="20" width="20" class="rounded-circle bg-@(Character.Status.ToLower())" />
+                            @Character.Status
+                        </b>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent">
+                        Location <b>@Character.Location.Name</b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column align-items-center mt-4">
+
+            <div class="align-self-start">
+                <h4>Episodes</h4>
+            </div>
+
+            <Episodes id="Character.Id" />
+
+            <button class="btn btn-secondary" @onclick="Back">Back</button>
+
+        </div>
+    </div>
+}
+
+@code {
+
+    [Parameter]
+    public string id { get; set; }
+
+    public Character Character { get; set; }
+    public List<Episode> Episodes { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Character = await RickMortyApi.GetChararter(int.Parse(id));
+    }
+
+    private void Back()
+    {
+        Navigation.NavigateTo("/");
+    }
+}
