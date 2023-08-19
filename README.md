@@ -10,6 +10,8 @@ This app use [Rick And Morty API](https://rickandmortyapi.com/)
 * Navigation
 * Search
 
+https://rickmortyblazor.azurewebsites.net/
+
 ---
 
 > LinkedIn [valeriadelgado99](https://www.linkedin.com/in/valeriadelgado99/) &nbsp;&middot;&nbsp;
